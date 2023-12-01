@@ -20,7 +20,7 @@ function getCalibrationValue(line: string): number {
       if (isDigit(line[line.length - 1 - i])) {
         lastDigit = line[line.length - 1 - i];
       } else {
-        const wordDigit = getWordDigit(line.substring(line.length -1 - i));
+        const wordDigit = getWordDigit(line.substring(line.length - 1 - i));
         if (wordDigit !== undefined) {
           lastDigit = `${wordDigit}`;
         }
@@ -51,8 +51,8 @@ function isDigit(character: string) {
 function getWordDigit(input: string): number | undefined {
   const wordDigits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 
-  for (let i = 0; i < input.length; i++) {
-    if (input.startsWith(wordDigits[0])) {
+  for (let i = 0; i < wordDigits.length; i++) {
+    if (input.startsWith(wordDigits[i])) {
       return i;
     }
   }

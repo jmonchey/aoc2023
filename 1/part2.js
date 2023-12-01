@@ -45,8 +45,8 @@ function isDigit(character) {
 }
 function getWordDigit(input) {
     var wordDigits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
-    for (var i = 0; i < input.length; i++) {
-        if (input.startsWith(wordDigits[0])) {
+    for (var i = 0; i < wordDigits.length; i++) {
+        if (input.startsWith(wordDigits[i])) {
             return i;
         }
     }
