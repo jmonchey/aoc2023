@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "day-1": "cd ./1 && tsc ./index.ts && node ./index.js"
+    "day-1-1": "cd ./1 && tsc ./part1.ts && node ./part1.js",
+    "day-1-2": "cd ./1 && tsc ./part2.ts && node ./part2.js"
   },
   "author": "",
   "license": "ISC",
