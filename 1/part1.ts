@@ -46,9 +46,4 @@ function solve() {
   console.log(answer);
 }
 
-function solve2() {
-
-}
-
 solve();
-solve2();
