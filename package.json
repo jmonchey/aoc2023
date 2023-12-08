@@ -7,7 +7,9 @@
     "day-1-1": "cd ./1 && tsc ./part1.ts && node ./part1.js",
     "day-1-2": "cd ./1 && tsc ./part2.ts && node ./part2.js",
     "day-2-1": "cd ./2 && tsc ./part1.ts && node ./part1.js",
-    "day-2-2": "cd ./2 && tsc ./part2.ts && node ./part2.js"
+    "day-2-2": "cd ./2 && tsc ./part2.ts && node ./part2.js",
+    "day-3-1": "cd ./3 && tsc ./part1.ts && node ./part1.js",
+    "day-3-2": "cd ./3 && tsc ./part2.ts && node ./part2.js"
   },
   "author": "",
   "license": "ISC",
